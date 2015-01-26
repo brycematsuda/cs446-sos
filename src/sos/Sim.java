@@ -37,7 +37,7 @@ public class Sim
         SOS os = new SOS(cpu, ram);
 
         Program prog = new Program();
-        if (prog.load("count10.asm", false) != 0)
+        if (prog.load("crazycount.asm", false) != 0)
         {
             //Error loading program so exit
             return;
